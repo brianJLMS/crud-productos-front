@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eeeeee;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.title {
+  font-weight: 300;
+  text-align: center;
+}
+
+.form {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+  background-color: #c8ffff;
+}
+
+.form__label-name {
+  font-weight: 700;
+  color: #525252;
+}
+
+.form__btn-submit {
+  border: none;
+  width: 200px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.label {
+  padding: 0.5rem 0 2rem 0;
+  margin: 1.5rem auto;
+  max-width: 500px;
+  background-color: #ebdbff;
+  border-radius: 10px;
+}
+
+.label__title {
+  margin-top: 0;
+}
+
+.label__lab {
+  font-weight: 600;
+}
+
+.label__btn {
+  background-color: #7cff40;
+  border: none;
+  cursor: pointer;
+  height: 20px;
+}
+
+.label-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #c2c2c2;
+  border-radius: 0 1rem 1rem 1rem;
+  max-width: 300px;
+  margin: 0.5rem auto;
+}
+
+.label-item__name {
+  font-weight: 200;
+}
+
+.label-item__btn {
+  background-color: #ff4949;
+  border: none;
+  width: 50px;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.products {
+  max-width: 1000px;
+  margin: 1rem auto;
+}
+
+.products__title {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  color: #525252;
+}
+
+.product {
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 850px;
+  margin: 1rem auto;
+  background-color: #fffcce;
+}
+
+.product__name {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.product__btn {
+  border: none;
+  width: 100px;
+  height: 25px;
+  background-color: #ff4949;
+  font-size: 1rem;
+  cursor: pointer;
+}
